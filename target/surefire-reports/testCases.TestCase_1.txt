@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: testCases.TestCase_1
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.672 sec <<< FAILURE!
+step1(testCases.TestCase_1)  Time elapsed: 0.275 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\testWorkspace\maven.selenium.testng
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at testCases.TestCase_1.step1(TestCase_1.java:16)
+

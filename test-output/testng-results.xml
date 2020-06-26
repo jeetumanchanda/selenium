@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="86650" started-at="2020-05-12T18:19:37Z" finished-at="2020-05-12T18:21:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="86650" started-at="2020-05-12T18:19:37Z" finished-at="2020-05-12T18:21:04Z">
+      <class name="testCases.TestCase_1">
+        <test-method status="PASS" signature="setProperties()[pri:0, instance:testCases.TestCase_1@12ff4da]" name="setProperties" is-config="true" duration-ms="28" started-at="2020-05-12T18:19:37Z" finished-at="2020-05-12T18:19:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperties -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testCases.TestCase_1@12ff4da]" name="beforeTest" is-config="true" duration-ms="6688" started-at="2020-05-12T18:19:37Z" depends-on-methods="maven.selenium.testng.TestCore.setProperties" finished-at="2020-05-12T18:19:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="step1(java.lang.String)[pri:0, instance:testCases.TestCase_1@12ff4da]" name="step1" duration-ms="3641" started-at="2020-05-12T18:19:44Z" data-provider="google" finished-at="2020-05-12T18:19:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step1 -->
+        <test-method status="PASS" signature="step2(java.lang.String)[pri:0, instance:testCases.TestCase_1@12ff4da]" name="step2" duration-ms="73721" started-at="2020-05-12T18:19:47Z" data-provider="yahoo" finished-at="2020-05-12T18:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yahoo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.TestCase_1@12ff4da]" name="closeBrowser" is-config="true" duration-ms="2514" started-at="2020-05-12T18:21:01Z" finished-at="2020-05-12T18:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.TestCase_1@12ff4da]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-05-12T18:21:04Z" finished-at="2020-05-12T18:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testCases.TestCase_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
